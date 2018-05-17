@@ -1,0 +1,50 @@
+/*
+Name: Robin Yang
+Date: 03/29/18
+Section: CSE 154 AI
+
+This is the index.css page for creative project 01.
+*/
+
+.header {
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	background-color: #7baff1;
+}
+
+body {
+	margin: 0;
+	font-family: Times New Roman;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.side-body {
+	flex-basis: 40%;
+	background-color: AliceBlue;
+	padding: 2%;
+	padding-left: 5%;
+}
+
+.main-body {
+	flex-basis: 60%;
+	padding: 2%;
+	padding-left: 5%;
+	background-color: HoneyDew ;
+}
+
+iframe {
+	border: none;
+	margin: 2%;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+		background-color: LightGrey;
+}
